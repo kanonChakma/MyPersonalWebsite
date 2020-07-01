@@ -1,0 +1,92 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+section{
+    height: 600px;
+    border:1px solid red;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:cover;
+}
+.first-second{
+    width: 40%;
+    margin-left: 6%;
+    float: left;
+    padding-left: 3%;
+    border: 1px solid ;
+}
+.hello{
+    margin-top: 10%;
+}
+.first-second img{
+    width: 80%;
+    border: 1px solid red;
+}
+a{
+    text-decoration: none;
+    background-color:red;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.button{
+    padding: 10px 20px;
+    
+}
+.button1{
+    padding: 10px 30px;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin-top: 20px;
+    height: 400px;
+    background-position: right;
+    background-size: initial;
+}
+.middle{
+    width:25%;
+    float: left;
+    margin-left:5%;
+}
+.middle img{
+    width: 100%;
+}
+footer{
+    background-image: url("images/footer-bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+}
+.foot{
+    text-align: center;
+}
+.up,.down{
+    width: 30%; 
+    height: auto;
+    margin-left: 35%;
+}
+#one{
+    margin-top:40px;
+}
+#two{
+    margin-top: -15px;
+}
+.down{
+    border-radius: 5px;
+    margin-top:3%;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-color: rgb(207, 21, 136);
+}
