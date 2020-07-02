@@ -1,12 +1,13 @@
 body{
+    font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     margin: 0;
 }
 section{
-    height: 600px;
-    border:1px solid red;
+    height: 550px;
 }
 .header{
+    padding: 5%;
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -15,31 +16,38 @@ section{
 .first-second{
     width: 40%;
     margin-left: 6%;
-    float: left;
+    float:left;
     padding-left: 3%;
-    border: 1px solid ;
+}
+.high-light{
+    color: orange;
+    margin-top: -20px;
 }
 .hello{
-    margin-top: 10%;
+    margin-top: 12%;
 }
 .first-second img{
-    width: 80%;
-    border: 1px solid red;
+    width: 90%;
+    padding-left: 20px;
 }
-a{
+.button,.button1{
     text-decoration: none;
-    background-color:red;
+    color: #fff;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 700;
     border-radius: 5px;
-    margin-top: 20px;
+    background-image: linear-gradient(yellow,tomato);
+    margin-top: 15px;
+}
+.button1{
+    padding: 10px 25px;
 }
 .button{
     padding: 10px 20px;
-    
-}
-.button1{
-    padding: 10px 30px;
 }
 .biography{
+    padding: 5%;
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -48,13 +56,18 @@ a{
 .latest-work{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
-    padding: 10px;
-    margin-top: 20px;
     height: 400px;
     background-position: right;
-    background-size: initial;
+    margin-top: 50px;
+}
+#latest{
+   text-transform: uppercase;
+   text-align: center;
+   padding: 5px 0px 5px 0px;
+   margin-bottom: 20px;
 }
 .middle{
+    margin-top: 10px;
     width:25%;
     float: left;
     margin-left:5%;
@@ -63,18 +76,19 @@ a{
     width: 100%;
 }
 footer{
-    background-image: url("images/footer-bg.png");
+  background-image: url("images/footer-bg.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size:cover;
-  height: 500px;
+  height: 550px;
+  padding:50px;
 }
 .foot{
     text-align: center;
 }
-.up,.down{
-    width: 30%; 
-    height: auto;
+
+.up{
+    width: 30%;
     margin-left: 35%;
 }
 #one{
@@ -84,9 +98,18 @@ footer{
     margin-top: -15px;
 }
 .down{
+    margin-left: 30%;
     border-radius: 5px;
     margin-top:3%;
     margin-bottom: 5%;
     padding: 10px;
-    background-color: rgb(207, 21, 136);
+    width: 40%; 
+    background-image: linear-gradient(yellow,tomato);
+}
+.weight{
+    font-weight: 400;
+}
+.proper{
+    text-align: center;
+    letter-spacing: 1px;
 }
